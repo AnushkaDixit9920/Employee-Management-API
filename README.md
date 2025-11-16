@@ -12,6 +12,7 @@ This project demonstrates CRUD operations, Swagger documentation, input validati
 ✅ Field-level validations (e.g., name, email, department, salary)
 ✅ Exception handling with clean and meaningful JSON error responses
 ✅ Clean architecture with Controller Layer, Service Layer, Repository Layer, and Exception Handler Layer
+
 ---
 🚀 Tech Stack
 ---
@@ -30,6 +31,7 @@ This project demonstrates CRUD operations, Swagger documentation, input validati
 -Swagger UI (springdoc-openapi)
 
 -Maven
+
 ---
 📂 Project Structure
 ---
@@ -40,12 +42,14 @@ src/main/java/com/example/employeemanagement
 ├── exception       --> Custom Exceptions & Global Handler
 ├── repository      --> JPA Repository Interface
 ├── service         --> Service Layer with business logic
+
 ---
 
 🔗 Swagger UI
 ---
 Access your API documentation at:
 http://localhost:8080/swagger-ui/index.html
+
 ---
 ⚙️ API Endpoints
 | **Method** | **Endpoint**          | **Description**             |
@@ -55,6 +59,7 @@ http://localhost:8080/swagger-ui/index.html
 | POST       | `/api/employees`      | Add a new employee          |
 | PUT        | `/api/employees/{id}` | Update an existing employee |
 | DELETE     | `/api/employees/{id}` | Delete an employee          |
+
 ---
 🛡️ Exception Handling
 ---
@@ -69,6 +74,7 @@ Handled exceptions:
 -Database Errors: Any database-related issue such as constraint violations or connection failures.
 
 -Generic Server Errors (500): Catches unexpected exceptions to prevent raw stack traces and return clean JSON responses.
+
 ---
 
 ▶️ Running the Application
@@ -85,6 +91,7 @@ Handled exceptions:
   http://localhost:8080/swagger-ui/index.html
 
   to explore and test all Employee APIs.
+  
 ---
 🤝 Contributing
 ---
@@ -94,10 +101,13 @@ Handled exceptions:
   -Setup instructions for MySQL
 
   -API request/response examples
+  
 ---
 Author:
 ---
 Anushka Dixit
+
+--
 
 
 
