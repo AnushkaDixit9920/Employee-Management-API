@@ -6,29 +6,30 @@ This project demonstrates CRUD operations, Swagger documentation, input validati
 
 ---
 🔧 Features
+---
 ✅ Create, Read, Update, and Delete (CRUD) operations on Employees
 ✅ API Documentation with Swagger UI
 ✅ Field-level validations (e.g., name, email, department, salary)
 ✅ Exception handling with clean and meaningful JSON error responses
 ✅ Clean architecture with Controller Layer, Service Layer, Repository Layer, and Exception Handler Layer
-
+---
 🚀 Tech Stack
 
-Java 17+
+-Java 17+
 
-Spring Boot 3+
+-Spring Boot 3+
 
-Spring Web
+-Spring Web
 
-Spring Data JPA (Hibernate)
+-Spring Data JPA (Hibernate)
 
-Hibernate Validator
+-Hibernate Validator
 
-MySQL Database
+-MySQL Database
 
-Swagger UI (springdoc-openapi)
+-Swagger UI (springdoc-openapi)
 
-Maven
+-Maven
 
 📂 Project Structure
 src/main/java/com/example/employeemanagement
