@@ -1,4 +1,5 @@
 📚 Employee Management API
+---
 
 A simple Spring Boot REST API for managing employee data.
 This project demonstrates CRUD operations, Swagger documentation, input validations, and global exception handling .
