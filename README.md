@@ -49,6 +49,8 @@ src/main/java/com/example/employeemanagement
 ---
 Access your API documentation at:
 http://localhost:8080/swagger-ui/index.html
+<img width="1905" height="977" alt="image" src="https://github.com/user-attachments/assets/119f86a3-63a0-4111-95c8-8cd469e2944a" />
+
 
 ---
 ⚙️ API Endpoints
